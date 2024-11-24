@@ -1,0 +1,32 @@
+
+body{
+ 
+}
+div{
+   text-align: center;
+   border-radius:50px;
+   font-size: 50px;
+   font-weight:bolder;
+
+}
+h1{
+   
+   text-align: left;
+    font-size: 30px;
+   font-weight:bolder;
+}
+h2{
+   font-size: 50px;
+   font-weight:bolder;
+}
+h3{
+   font-size: 30px;
+   text-align: left;
+}
+button{
+   margin-bottom: 100px;
+}
+p{
+   font-size: 20px;
+   text-align: left;
+}
