@@ -18,25 +18,25 @@ form.addEventListener('submit', (event:Event) => {
 
     const resumeHTML =`
 
-    <div>Resume</div>
+    <div>Editable Resume</div>
 
     <h3>Personal Information</h3>
-    <p><b>Name:</b>${name}</p>
-    <p><b>Email:</b>${email}</p>
-    <p><b>Phone:</b>${phone}</p>
+    <p><b>Name:</b><span contenteditable='true'>${name}</span></p>
+    <p><b>Email:</b><span contenteditable='true'>${email}</span></p>
+    <p><b>Phone:</b><span contenteditable='true'>${phone}</span></p>
 
     <h3>Education</h3>
-    <p><b>Degree:</b>${degree}</p>
-    <p><b>University:</b>${university}</p>
-    <p><b>Graduation Years:</b>${graduationYear}</p>
+    <p><b>Degree:</b><span contenteditable='true'>${degree}</span></p>
+    <p><b>University:</b><span contenteditable='true'>${university}</span></p>
+    <p><b>Graduation Years:</b><span contenteditable='true'>${graduationYear}</span></p>
 
     <h3>Experience</h3>
-    <p><b>Job Tittle:</b>${jobTitle}</p>
-    <p><b>Company:</b>${company}</p>
-    <p><b>Experience Years:</b>${experienceYear}</p>
+    <p><b>Job Tittle:</b><span contenteditable='true'>${jobTitle}</span></p>
+    <p><b>Company:</b><span contenteditable='true'>${company}</span></p>
+    <p><b>Experience Years:</b><span contenteditable='true'>${experienceYear}</span></p>
 
     <h3>Skills</h3>
-     <p><b>Skills:</b>${skills}</p>
+     <p><b>Skills:</b><span contenteditable='true'>${skills}</span></p>
     `;
 
     if (resumeDisplayElement) {
